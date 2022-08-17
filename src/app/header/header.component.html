@@ -1,0 +1,22 @@
+<nav>
+    <img src="../../assets/images/petitPied.jpg" alt="logo">
+    <div class="main-navlinks">
+        <button (click)="toggleNav()" class="hamburger" type="button"
+        [ngClass]="{ open : navIsOpen}"
+        aria-label="Toglle navigation"
+        aria-expanded="false"
+        >
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="navlinks-container open" [ngClass]="{ open : navIsOpen}">
+            <a aria-current="page"><span>01</span> Home</a>
+            <a><span>02</span> About</a>
+            <a><span>03</span> Portfolio</a>
+            <a><span>04</span> contact</a>
+            
+        </div>
+    </div>
+
+</nav>
