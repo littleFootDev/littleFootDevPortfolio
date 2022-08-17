@@ -1,0 +1,25 @@
+.contain-reseaux {
+  height: 100vh;
+  width: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: var(--primary);
+  align-items: center;
+  svg {
+    width: 1.5rem;
+    color: var(--secondary);
+    margin-bottom: 1rem;
+    &:hover {
+      color: var(--accent);
+    }
+  }
+  span {
+    background: var(--secondary);
+    height: 6rem;
+    width: 0.1rem;
+  }
+}
+
+@media (max-width: 900px) {
+}

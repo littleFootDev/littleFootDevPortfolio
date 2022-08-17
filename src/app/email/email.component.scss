@@ -1,0 +1,25 @@
+.contain-email {
+  background: var(--primary);
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  height: 100vh;
+  width: 4rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  a {
+    text-decoration: none;
+    margin-bottom: 1rem;
+    color: var(--secondary);
+    font-size: 0.8rem;
+    &:hover {
+      color: var(--accent);
+    }
+  }
+
+  span {
+    background: var(--secondary);
+    height: 6rem;
+    width: 0.1rem;
+  }
+}
