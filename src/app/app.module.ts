@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { ContainerReseauxComponent } from './container-reseaux/container-reseaux.component';
 import { EmailComponent } from './email/email.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     ContainerReseauxComponent,
-    EmailComponent
+    EmailComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

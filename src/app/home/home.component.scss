@@ -1,0 +1,23 @@
+.contain-home {
+  background: var(--primary);
+  width: calc(100vw - 8rem);
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: var(--secondary);
+  .content-text {
+    margin-left: 5rem;
+    .title {
+      font-size: 1rem;
+      color: var(--accent);
+    }
+    .name {
+      font-size: 4rem;
+      margin: 2rem 0;
+    }
+    .text-animations {
+      font-size: 2.5rem;
+    }
+  }
+}

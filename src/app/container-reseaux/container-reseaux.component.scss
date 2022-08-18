@@ -12,6 +12,7 @@
     margin-bottom: 1rem;
     &:hover {
       color: var(--accent);
+      transform: scale(1.5);
     }
   }
   span {
