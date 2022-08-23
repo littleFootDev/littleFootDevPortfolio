@@ -27,6 +27,7 @@ nav {
     color: var(--secondary);
     display: inline-block;
     position: relative;
+    cursor: pointer;
     &::after {
       content: "";
       display: block;

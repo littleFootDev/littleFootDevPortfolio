@@ -11,12 +11,13 @@
             <span></span>
         </button>
         <div class="navlinks-container open" [ngClass]="{ open : navIsOpen}">
-            <a aria-current="page" router-link=""><span>01</span> Home</a>
-            <a><span>02</span> About</a>
-            <a><span>03</span> Portfolio</a>
-            <a><span>04</span> contact</a>
+            <a aria-current="page" routerLink="" routerLinkActive="active"><span>01.</span> Home</a>
+            <a routerLink="about" routerLinkActive="active"><span>02.</span> About</a>
+            <a ><span>03.</span> Portfolio</a>
+            <a><span>04.</span> contact</a>
             
         </div>
     </div>
 
 </nav>
+routerLinkActive="active"

@@ -1,0 +1,79 @@
+.contain-about {
+  background: var(--primary);
+  width: calc(100vw - 8rem);
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: var(--secondary);
+  .container {
+    margin-left: 5rem;
+    .title-about {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+      display: flex;
+      align-items: center;
+      .numero {
+        color: var(--accent);
+        margin-right: 1rem;
+      }
+      .trait {
+        width: 20rem;
+        height: 0.1rem;
+        margin-left: 1rem;
+        background: var(--secondary);
+      }
+    }
+    .container-total {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      width: 60rem;
+      .contain-description {
+        width: 50rem;
+        padding-right: 15rem;
+        .description {
+          font-size: 1.1rem;
+          font-weight: 100;
+          width: 35rem;
+          margin-bottom: 0.5rem;
+        }
+        .contain-techno {
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          flex-direction: column;
+          font-size: 1.1rem;
+          font-weight: 100;
+          .skills-list {
+            margin-top: 1rem;
+            display: flex;
+            justify-content: space-between;
+            width: 20rem;
+            li {
+              list-style: none;
+            }
+          }
+        }
+      }
+    }
+    .contain-image {
+      position: relative;
+      border: 0.5rem solid var(--accent);
+      .image {
+        transform: translate(-1rem, -1rem);
+        // background: var(--accent);
+        :hover {
+          transform: translate(0.5rem, 0.5rem);
+          background: var(--primary);
+          opacity: 1;
+        }
+        img {
+          width: 9rem;
+          height: 10rem;
+          // opacity: 0.5;
+        }
+      }
+    }
+  }
+}
