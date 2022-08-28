@@ -7,7 +7,7 @@
   align-items: center;
   color: var(--secondary);
   .content-text {
-    margin-left: 5rem;
+    margin-left: 20rem;
     .title {
       font-size: 1rem;
       color: var(--accent);
@@ -23,8 +23,28 @@
       font-weight: 100;
       margin-bottom: 0.7rem;
     }
-    .text-animations {
+    .text-animation {
       font-size: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .btn {
+      border: 1px solid var(--accent);
+      border-radius: 4px;
+      line-height: 1;
+      cursor: pointer;
+      padding: 1rem 1rem;
+      background: transparent;
+      transition: var(--transition);
+      &:hover {
+        background: var(--accent);
+        opacity: 0.4;
+      }
+      a {
+        text-decoration: none;
+        color: var(--secondary);
+        font-size: 2rem;
+        font-weight: 700;
+      }
     }
   }
 }
