@@ -12,6 +12,7 @@
   --secondary: #8892b0;
   --accent: #ff6c37;
   --lightgray: #ccd6f6;
+  --transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 body {
   font-family: var(--font-family);

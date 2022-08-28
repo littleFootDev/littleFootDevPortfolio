@@ -44,6 +44,19 @@ nav {
       transform: scaleX(1);
     }
   }
+  .btn {
+    border: 1px solid var(--accent);
+    border-radius: 4px;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0.8rem 0.3rem;
+    background: transparent;
+    transition: var(--transition);
+    &:hover {
+      background: var(--accent);
+      opacity: 0.4;
+    }
+  }
 }
 
 @media (max-width: 900px) {

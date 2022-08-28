@@ -62,16 +62,15 @@
       border: 0.5rem solid var(--accent);
       .image {
         transform: translate(-1rem, -1rem);
-        // background: var(--accent);
+        background: var(--accent);
+        height: 10.99rem;
         :hover {
-          transform: translate(0.5rem, 0.5rem);
-          background: var(--primary);
           opacity: 1;
         }
         img {
           width: 9rem;
-          height: 10rem;
-          // opacity: 0.5;
+          height: 11rem;
+          opacity: 0.5;
         }
       }
     }
