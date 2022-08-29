@@ -1,11 +1,13 @@
 .contain-reseaux {
-  height: 100vh;
+  height: calc(100vh - 5rem);
   width: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   background: var(--primary);
   align-items: center;
+  position: relative;
+  top: 5rem;
   svg {
     width: 1.5rem;
     color: var(--secondary);

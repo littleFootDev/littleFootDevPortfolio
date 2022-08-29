@@ -1,0 +1,39 @@
+.contain-form {
+  background: var(--primary);
+  width: calc(100vw - 8rem);
+  height: calc(100vh - 5rem);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: var(--secondary);
+  position: relative;
+  top: 5rem;
+  .formulaire {
+    border: 1px solid red;
+    height: 90%;
+    width: 50%;
+    margin-top: 3rem;
+    .title-form {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+      display: flex;
+      align-items: center;
+      .numero {
+        color: var(--accent);
+        margin-right: 1rem;
+      }
+      .trait {
+        width: 20rem;
+        height: 0.1rem;
+        margin-left: 1rem;
+        background: var(--secondary);
+      }
+    }
+  }
+  .contain-map {
+    border: 1px solid green;
+    height: 90%;
+    width: 50%;
+    margin-top: 3rem;
+  }
+}
